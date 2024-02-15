@@ -18,7 +18,7 @@ cd ~/ros2_ws/src
 git clone https://github.com/ban2aru/yolov8-ros2.git
 cd ..
 sudo apt update
-pip install -r yolov8_ros2/requirements.txt
+pip install -r ./src/yolov8-ros2/requirements.txt
 cd ~/ros2_ws
 rosdep install --from-paths src --ignore-src -r -y
 colcon build
